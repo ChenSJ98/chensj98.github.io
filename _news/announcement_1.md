@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-15
 inline: true
 ---
 
-A simple inline announcement.
+Our TacoBot team won the 3rd place in the first Alexa Prize Taskbot Challenge! Check out our report [here](https://www.amazon.science/alexa-prize/proceedings/bootstrapping-a-user-centered-task-oriented-dialogue-system).
