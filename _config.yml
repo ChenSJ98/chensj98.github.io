@@ -169,7 +169,10 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: [
+  '_pages',
+  'assets/pdf'
+  ]
 exclude:
   - _pages_backup
   - bin
