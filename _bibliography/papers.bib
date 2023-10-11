@@ -2,18 +2,51 @@
 ---
 
 @string{aps = {American Physical Society,}}
-@article{Chen2022Error,
-  title = {Error {{Detection}} for {{Interactive Text-to-SQL Semantic Parsing}}},
-  author = {Chen, Shijie and Chen, Ziru and Sun, Huan and Su, Yu},
-  year = {2022},
-  selected={true},
-  month=nov,
-  journal = {2nd Workshop on Interactive Learning for Natural Language Processing (InterNLP 2022)},
-  pages = {7},
-  abstract = {Despite remarkable progress in text-to-SQL semantic parsing, the performance of state-of-the-art parsers are still far from perfect. At the same time, modern deep learning based text-to-SQL parsers are often over-confident and thus casting doubt on its trustworthiness when used in an interactive setting. In this paper, we propose to train parser-independent error detectors for text-to-SQL semantic parsers. We test our proposed approach with two parsers, SmBop and Bridge v2, and show our model could outperform parser-dependent uncertainty measures in simulated interactive evaluations. As a result, when used for answer triggering or interaction trigger in interactive semantic parsing systems, our model could effectively improve the usability of the base parser.},
-  langid = {english},
-  pdf={https://internlp.github.io/documents/2022/papers/25.pdf}
+
+@inproceedings{zheng-etal-2022-cdconv,
+    title = "Error Detection for Interactive Text-to-SQL Semantic Parsing",
+    selected = {true},
+    author = {Chen, Shijie and Chen, Ziru and Sun, Huan and Su, Yu},
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+    arxiv={2305.13683}
 }
+
+@article{deng2023mind2web,
+  title={Mind2Web: Towards a Generalist Agent for the Web},
+  selected={true},
+  author={Xiang Deng and Yu Gu and Boyuan Zheng and Shijie Chen and Samuel Stevens and Boshi Wang and Huan Sun and Yu Su},
+  journal={NeurIPS 2023 Dataset Track (Spotlight)},
+  arxiv={2306.06070},
+  year={2023},
+  code={https://github.com/OSU-NLP-Group/Mind2Web}
+}
+@inproceedings{chen2023text,
+    title = "Text-to-{SQL} Error Correction with Language Models of Code",
+    selected={true},
+    author = "Chen, Ziru  and
+      Chen, Shijie  and
+      White, Michael  and
+      Mooney, Raymond  and
+      Payani, Ali  and
+      Srinivasa, Jayanth  and
+      Su, Yu  and
+      Sun, Huan",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.117",
+    doi = "10.18653/v1/2023.acl-short.117",
+    pages = "1359--1372",
+    pdf={https://aclanthology.org/2023.acl-short.117.pdf},
+    code={https://github.com/OSU-NLP-Group/Auto-SQL-Correction}
+}
+
+
 @article{Chen2022Bootstrapping,
   selected={true},
   title = {Bootstrapping a {{User-Centered Task-Oriented Dialogue System}}},
@@ -26,15 +59,13 @@
   primaryclass = {cs},
   journal = {1st Proceedings of Alexa Prize TaskBot (Alexa Prize 2021)},
   publisher = {{arXiv}},
-  abstract = {We present TacoBot, a task-oriented dialogue system built for the inaugural Alexa Prize TaskBot Challenge, which assists users in completing multi-step cooking and home improvement tasks. TacoBot is designed with a user-centered principle and aspires to deliver a collaborative and accessible dialogue experience. Towards that end, it is equipped with accurate language understanding, flexible dialogue management, and engaging response generation. Furthermore, TacoBot is backed by a strong search engine and an automated end-to-end test suite. In bootstrapping the development of TacoBot, we explore a series of data augmentation strategies to train advanced neural language processing models and continuously improve the dialogue experience with collected real conversations. At the end of the semifinals, TacoBot achieved an average rating of 3.55/5.0.},
-  archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Machine Learning},
   file = {/Users/shijiechen/Dropbox/ObsidianVaults/My-Vault/02-Literature/zotero-attachments/p_Bootstrapping_a_User-Centered_Task-Oriented_Dialogue_System_Chen2022Bootstrapping.pdf;/Users/shijiechen/Zotero/storage/9Q8LEPZ8/2207.html},
   pdf= {https://assets.amazon.science/9a/30/5e4931ec41d78abad730707ce95a/bootstrapping-a-user-centered-task-oriented-dialogue-system.pdf}
 }
 
 @article{Chen2021MultiTask,
-  selected={true},
+  selected={false},
   title = {Multi-{{Task Learning}} in {{Natural Language Processing}}: {{An Overview}}},
   shorttitle = {Multi-{{Task Learning}} in {{Natural Language Processing}}},
   author = {Chen, Shijie and Zhang, Yu and Yang, Qiang},
@@ -46,7 +77,6 @@
   eprinttype = {arxiv},
   primaryclass = {cs},
   publisher = {{arXiv}},
-  abstract = {Deep learning approaches have achieved great success in the field of Natural Language Processing (NLP). However, deep neural models often suffer from overfitting and data scarcity problems that are pervasive in NLP tasks. In recent years, Multi-Task Learning (MTL), which can leverage useful information of related tasks to achieve simultaneous performance improvement on multiple related tasks, has been used to handle these problems. In this paper, we give an overview of the use of MTL in NLP tasks. We first review MTL architectures used in NLP tasks and categorize them into four classes, including the parallel architecture, hierarchical architecture, modular architecture, and generative adversarial architecture. Then we present optimization techniques on loss construction, data sampling, and task scheduling to properly train a multi-task model. After presenting applications of MTL in a variety of NLP tasks, we introduce some benchmark datasets. Finally, we make a conclusion and discuss several possible research directions in this field.},
   archiveprefix = {arXiv},
   keywords = {Computer Science - Artificial Intelligence},
   file = {/Users/shijiechen/Dropbox/ObsidianVaults/My-Vault/02-Literature/zotero-attachments/p_Multi-Task_Learning_in_Natural_Language_Processing_-_An_Overview_Chen2021MultiTask.pdf;/Users/shijiechen/Zotero/storage/57JAUW6I/2109.html},
@@ -62,9 +92,6 @@
   month = oct,
   pages = {1--7},
   doi = {10.1109/UV.2018.8642114},
-  abstract = {The world is currently facing significant challenges in feeding a growing population with declining resources. Urban agriculture and vertical farming have the potential to provide a revolutionary new food supply and distribution network capable of feeding large populations in the 21st Century; as well as increase quality and reduce negative impacts on the natural environment. The concept has attracted a lot of attention from governments and business throughout the world recently. This paper describes a framework for applying technologies from Agent Based Models, Simulation and Computational Intelligence to analyze, optimize and manage ``ecosystems'' for urban agriculture and vertical farming for food production from the perspective of stakeholders including consumers, producers, and policy makers.},
-  keywords = {Adaptation models,Agent Based Models,Agriculture,Biological system modeling,Business,Ecosystems,Production,Simulation,Supply Chain,Urban Agriculture,Urban areas,Vertical Farming},
-  file = {/Users/Chris/Documents/ObsidianVaults/My-Vault/02-Literature/zotero-notes/A Dynamic Data Driven Application System to Manage Urban Agricultural Ecosystems in Smart Cities-zotero.md;/Users/Chris/Documents/Zotero_files/MyPub/gtzcgz18a_A_Dynamic_Data_Driven_Application_System_to_Manage_Urban_Agricultural.pdf;/Users/shijiechen/Zotero/storage/V8HI3TNY/8642114.html},
   url={https://ieeexplore.ieee.org/abstract/document/8642114}
 }
 
@@ -77,14 +104,13 @@
   pages = {1767--1778},
   issn = {1558-4305},
   doi = {10.1109/WSC40007.2019.9004854},
-  abstract = {Agricultural innovation is imperative in order to meet global challenges to sustainably feed large urban populations. This paper contributes a modelling framework for urban agriculture, and an implementation in a scenario based on the fast growing mega city of Shenzhen located near Hong Kong in southern China. We also review related work and provide a gap analysis between requirements for modelling modern urban agricultural systems versus related work that looks at agricultural supply chains, production, and land use. The proposed framework will facilitate developing a novel decision support system to coordinate decentralized urban agricultural production units in order to realize, at scale, numerous benefits from co-locating production and consumption in the urban environment.},
   keywords = {Adaptation models,Agriculture,Biological system modeling,Data models,Production,Sociology,Urban areas},
   file = {/Users/Chris/Documents/ObsidianVaults/My-Vault/02-Literature/zotero-notes/An Agent-Based Modelling Framework for Urban Agriculture-zotero.md;/Users/shijiechen/Dropbox/ObsidianVaults/My-Vault/02-Literature/zotero-attachments/p_An_Agent-Based_Modelling_Framework_for_Urban_Agriculture_gtzzcga19.pdf;/Users/shijiechen/Zotero/storage/3ECCD6CE/9004854.html},
   pdf={http://simulation.su/uploads/files/default/2019-ghandar-theodoropoulos-zhong-zhen-chen-gong-ahmed.pdf}
 }
 
 @article{Ju2019Technical,
-  selected={true},
+  selected={false},
   title = {Technical Report on {{Conversational Question Answering}}},
   author = {Ju, Ying and Zhao, Fubang and Chen, Shijie and Zheng, Bowen and Yang, Xuefeng and Liu, Yunfeng},
   year = {2019},
@@ -93,8 +119,6 @@
   eprint = {1909.10772},
   eprinttype = {arxiv},
   primaryclass = {cs},
-  abstract = {Conversational Question Answering is a challenging task since it requires understanding of conversational history. In this project, we propose a new system RoBERTa + AT +KD, which involves rationale tagging multi-task, adversarial training, knowledge distillation and a linguistic post-process strategy. Our single model achieves 90.4(F1) on the CoQA test set without data augmentation, outperforming the current state-of-the-art single model by 2.6\% F1.},
-  archiveprefix = {arXiv},
   keywords = {Computer Science - Computation and Language},
   file = {/Users/Chris/Documents/ObsidianVaults/My-Vault/02-Literature/zotero-notes/Technical report on Conversational Question Answering-zotero.md;/Users/shijiechen/Dropbox/ObsidianVaults/My-Vault/02-Literature/zotero-attachments/p_Technical_report_on_Conversational_Question_Answering_jzczyl19a.pdf;/Users/shijiechen/Zotero/storage/XN4RAC2G/1909.html},
   pdf = {https://arxiv.org/pdf/1909.10772.pdf},

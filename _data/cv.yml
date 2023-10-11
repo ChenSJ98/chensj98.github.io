@@ -34,6 +34,10 @@
     - title: Graduate Research Associate
       institution: The Ohio State University
       year: 2021.09-
+    - title: Applied Scientist Intern
+      institution: Amazon Alexa AI
+      year: 2023.05-2023.08
+    
     - title: Research Assistant
       institution: Southern University of Science and Technology
       year: 2020.09-2021.06
@@ -64,7 +68,7 @@
   contents:
     - title: Program Committee/Reviewer
       items: 
-        - AAAI 2023, AKBC 2022
+        - AAAI 2023,2024; AKBC 2022; ACL 2023; EMNLP 2023;
     - title: Secondary Reviewer
       items:
         - EMNLP 2021
