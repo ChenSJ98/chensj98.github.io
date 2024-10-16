@@ -20,4 +20,4 @@ social: false  # includes social icons at the bottom of the page
 Hi, I'm Shijie Chen (陈士杰), a forth-year Ph.D. student at The [Ohio State University](https://www.osu.edu/) (OSU) co-advised by [Prof. Yu Su](https://ysu1989.github.io) and [Prof. Huan Sun](https://u.osu.edu/ihudas/people). Before joining OSU, I obtained my bachelor's degree from [Southern University of Science and Technology](https://www.sustech.edu.cn) (SUSTech) in Shenzhen, China. 
 Here is my [CV](../assets/pdf/resume.pdf).
 
-My research interest lies in natural language processing (NLP) with an emphasis on semantic parsing and task-oriented dialogue systems. I'm generally interested in understanding language semantics and building AI systems that are more interpretable and trustworthy. 
+My research interest lies in natural language processing (NLP), especially on large language models (LLMs) and AI agents. I'm generally interested in understanding language semantics and building AI systems that are more interpretable and trustworthy. 
