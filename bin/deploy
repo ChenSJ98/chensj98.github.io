@@ -94,8 +94,20 @@ git checkout -b $DEPLOY_BRANCH
 # Export JEKYLL_ENV=production
 export JEKYLL_ENV=production
 
+BUNDLER_VERSION_REQUIRED="2.6.9"
+
+if ! gem list --installed bundler -v "${BUNDLER_VERSION_REQUIRED}" >/dev/null 2>&1; then
+  echo "Installing bundler ${BUNDLER_VERSION_REQUIRED}..."
+  gem install bundler -v "${BUNDLER_VERSION_REQUIRED}"
+fi
+
+BUNDLE_CMD="bundle _${BUNDLER_VERSION_REQUIRED}_"
+
+# Ensure gems are installed for the required bundler version
+${BUNDLE_CMD} install
+
 # Build site
-bundle exec jekyll build
+${BUNDLE_CMD} exec jekyll build
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
