@@ -77,10 +77,10 @@
   contents:
     - title: Program Committee/Reviewer
       items: 
-        - ICLR2025; AAAI 2023,2024; AKBC 2022; ACL 2023; EMNLP 2023;
-    - title: Secondary Reviewer
-      items:
-        - EMNLP 2021
+        - NeurIPS 2025; ICLR 2025,2026; AAAI 2023,2024; AKBC 2022; ACL 2023; EMNLP 2023;
+    # - title: Secondary Reviewer
+    #   items:
+    #     - EMNLP 2021
 # 
 # - title: Other Interests
   # type: list
